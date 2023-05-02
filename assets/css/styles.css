@@ -13,19 +13,89 @@ html{
 
 body{
     font-size: 1.2rem;
-    padding-left: 5vh;
-    padding-top: 3rem;
+    padding-left: 3vh;
+    padding-top: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-color);
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+  }
+
+  .icon-menu {
+    margin-right: 10vh;
+    margin-top: 1vh;
+    width: 5vh;
+    height: 5vh;
+  }
+
+  .animated-icon3 > li > a{
+cursor: pointer;
+  }
+
+  nav > ul > li > a {
+    text-decoration: none;
+    transition: border-bottom 0.5s linear var(--main-color);
+    padding: 0.5rem 1rem;
+    color: var(--main-color);
+    border-bottom: 2px solid transparent;
+    margin: bottom 2px;
+  }
+
+input#menu-hamburguesa {
+  height: 30px;
+  width: 70px;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+input#menu-hamburguesa ~ ul {
+  display: flex;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  left: 0;
+  height: calc(100vh - 60px);
+  top: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  display: none;
+  z-index: 100;
+}
+
+input#menu-hamburguesa:checked ~ ul {
+  display: flex;
+  height: 150vw;
+}
+
+nav > ul > li {
+    margin-top: 5vh;
+    font-size: 1.4rem;
+  }
+
+.letras-menu{
+    color: var(--main-color);
 }
 
 .img-container{
     display: flex;
-    margin-right: 3.5rem;
     justify-content: center;
 }
 
 .me-picture{
     width: 80%;
     height: 100%;
+    margin-right: 5rem;
 }
 
 :root {
@@ -44,4 +114,36 @@ body{
   .presentation{
     display: flex;
     width:80vw ;
+  }
+
+
+
+@media screen and (min-width:880px) {
+    input#menu-hamburguesa ~ ul {
+      position: static;
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      justify-content: flex-end;
+    }
+  
+    nav > ul > li > a {
+      text-decoration: none;
+      transition: border-bottom 0.5s linear;
+      padding: 0.5rem 1rem;
+      border-bottom: 2px solid transparent;
+      margin: bottom 2px;
+    }
+  
+   
+    nav > ul > li > img{
+      visibility: hidden;
+      display: none;
+    }
+  
+    nav > ul > li > a:hover {
+      border-bottom: 1px solid var(--accent-color);
+    }
+
   }
