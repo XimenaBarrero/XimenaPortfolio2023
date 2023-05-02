@@ -1,6 +1,8 @@
 html{
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
+    color: var(--main-color);
+    background-color: var(--dark-color);
 }
 
 * {
@@ -9,9 +11,37 @@ html{
     margin: 0;
 }
 
+body{
+    font-size: 1.2rem;
+    padding-left: 5vh;
+    padding-top: 3rem;
+}
+
+.img-container{
+    display: flex;
+    margin-right: 3.5rem;
+    justify-content: center;
+}
+
+.me-picture{
+    width: 80%;
+    height: 100%;
+}
+
 :root {
     --main-color: #ffffff;
     --accent-color: #ffd600;
     --light-color: #f9f5f2;
     --dark-color: black;
+  }
+
+  h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5.5rem;
+  }
+
+  .presentation{
+    display: flex;
+    width:80vw ;
   }
