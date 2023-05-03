@@ -1,3 +1,5 @@
+
+
 html{
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
@@ -17,6 +19,13 @@ body{
     padding-top: 1rem;
 }
 
+:root {
+    --main-color: #ffffff;
+    --accent-color: #ffd600;
+    --light-color: #f9f5f2;
+    --dark-color: black;
+  }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,31 +35,33 @@ nav {
     width: 100vw;
     height: 60px;
     z-index: 100;
+
   }
 
   .icon-menu {
     margin-right: 10vh;
-    margin-top: 1vh;
     width: 5vh;
     height: 5vh;
-  }
-
-  .animated-icon3 > li > a{
-cursor: pointer;
+    cursor: pointer;
+    padding-bottom: 12px;
+    margin-top: 0px;
   }
 
   nav > ul > li > a {
+    display: flex;
+    font-size: 14px;
+    justify-content: left;
     text-decoration: none;
-    transition: border-bottom 0.5s linear var(--main-color);
-    padding: 0.5rem 1rem;
+    padding-top: 1.1vw;
+    padding-bottom: 1.1vw;
+    padding-left: 5vw;
     color: var(--main-color);
-    border-bottom: 2px solid transparent;
-    margin: bottom 2px;
+    
   }
 
 input#menu-hamburguesa {
   height: 30px;
-  width: 70px;
+  width: 100%;
   visibility: hidden;
   border-radius: 50%;
 }
@@ -63,25 +74,41 @@ input#menu-hamburguesa ~ ul {
   list-style: none;
   width: 100%;
   left: 0;
-  height: calc(100vh - 60px);
-  top: 60px;
+  top: 10vh;
   flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem 1rem;
+  align-items: left;
   display: none;
   z-index: 100;
+  font-size: 10px;
+}
+
+input#menu-hamburguesa ul li{
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+
+nav > ul > li:nth-child(odd){
+    background-color: var(--main-color);
+    width: 100%;
+}
+
+nav > ul > li:nth-child(odd) > a{
+    color: var(--dark-color);
 }
 
 input#menu-hamburguesa:checked ~ ul {
   display: flex;
-  height: 150vw;
+  height: 13vh;
+  width: 100%;
 }
 
-nav > ul > li {
-    margin-top: 5vh;
-    font-size: 1.4rem;
-  }
+.ig-image{
+    background-color: var(--main-color);
+    border-radius: 30%;
+}
 
 .letras-menu{
     color: var(--main-color);
@@ -93,22 +120,16 @@ nav > ul > li {
 }
 
 .me-picture{
-    width: 80%;
+    width: 70%;
     height: 100%;
-    margin-right: 5rem;
+    margin-right: 3rem;
+    border-radius: 50%;
 }
-
-:root {
-    --main-color: #ffffff;
-    --accent-color: #ffd600;
-    --light-color: #f9f5f2;
-    --dark-color: black;
-  }
 
   h1{
     display: flex;
     flex-wrap: wrap;
-    font-size: 5.5rem;
+    font-size: 5.1rem;
   }
 
   .presentation{
@@ -147,3 +168,6 @@ nav > ul > li {
     }
 
   }
+
+
+
