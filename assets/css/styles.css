@@ -36,7 +36,7 @@ nav {
     text-align: center;
     background-color: var(--dark-color);
     width: 100vw;
-    height: 70px;
+    height: 50px;
     z-index: 100;
   }
 
@@ -56,9 +56,9 @@ nav {
     font-size: 14px;
     justify-content: left;
     text-decoration: none;
-    padding-top: 1.1vw;
-    padding-bottom: 1.1vw;
-    padding-left: 9vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
     color: var(--main-color);
   }
 
@@ -69,6 +69,7 @@ input#menu-hamburguesa {
   border-radius: 50%;
 }
 
+/*caja con menu*/
 input#menu-hamburguesa ~ ul {
   display: flex;
   background-color: var(--dark-color);
@@ -90,7 +91,6 @@ input#menu-hamburguesa ul li{
     cursor: pointer;
     text-decoration: none;
     color: var(--main-color);
-
 }
 
 nav > ul > li:nth-child(odd){
@@ -138,6 +138,7 @@ input#menu-hamburguesa:checked ~ ul {
     flex-wrap: wrap;
     font-size: 5.1rem;
     padding-left: 6vw;
+    margin-top: 12px;
   }
 
   .presentation{
@@ -155,7 +156,7 @@ margin-left: 5vw;
   }
 
   /*Media quieries*/
-@media screen and (min-width:880px) {
+@media screen and (min-width:980px) {
     input#menu-hamburguesa ~ ul {
       position: static;
       background-color: transparent;
