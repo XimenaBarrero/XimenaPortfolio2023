@@ -10,3 +10,4 @@ myImage.onclick = function(){
         myImage.setAttribute("src", "./assets/images/menu.png")
     }
 }
+
