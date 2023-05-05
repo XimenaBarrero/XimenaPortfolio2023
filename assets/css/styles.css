@@ -1,5 +1,3 @@
-
-
 html{
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
@@ -70,7 +68,7 @@ input#menu-hamburguesa {
   border-radius: 50%;
 }
 
-/*caja con menu*/
+/* Menu container*/
 input#menu-hamburguesa ~ ul {
   display: flex;
   background-color: var(--dark-color);
@@ -121,6 +119,24 @@ input#menu-hamburguesa:checked ~ ul {
 .letras-menu{
     color: var(--main-color);
 }
+
+.letras-menu > li{
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+
+/*Lateral menu for computer view*/
+.nav-columns-container{
+  display: flex;
+}
+
+.header-column-one{
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
 /*main*/
 
 .yellow-letters{
@@ -186,7 +202,6 @@ margin-left: 5vw;
       border-bottom: 2px solid transparent;
       margin: bottom 2px;
     }
-  
    
     nav > ul > li > img{
       visibility: hidden;
@@ -199,6 +214,10 @@ margin-left: 5vw;
 
    nav { 
     display: none;
+  }
+
+  h1{
+    font-size: 100px;
   }
 }
 
