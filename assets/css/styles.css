@@ -3,7 +3,6 @@ html{
     font-family: 'IBM Plex Mono', monospace;
     color: var(--main-color);
     font-weight: lighter;
-
 }
 
 * {
@@ -139,6 +138,10 @@ input#menu-hamburguesa:checked ~ ul {
   position: absolute;
 padding-left: 90vw;
 }
+.lateral-menu-container > ul > li >a  {
+ padding-top: 5px;
+ padding-bottom: 815px;
+}
 
 .lateral-menu-list{
   list-style: none;
@@ -148,12 +151,15 @@ padding-left: 90vw;
 
 .lateral-menu-list > li{
   cursor: pointer;
-
+  display: flex;
 }
 
 .lateral-menu-list > li > a{
   text-decoration: none;
   color: var(--main-color);
+  flex-direction: row;
+
+  
 }
 
 .lateral-menu-list > li:nth-child(odd) >a {
