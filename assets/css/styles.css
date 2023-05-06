@@ -126,21 +126,22 @@ input#menu-hamburguesa:checked ~ ul {
 }
 
 /*Lateral menu for computer view*/
-.nav-columns-container{
-  display: flex;
-}
 
 .lateral-menu-container{
   display: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
-  height: 100%;
   text-align: left;
-  justify-content: flex-start;
+}
+
+.lateral-menu-container > ul {
+  position: absolute;
+padding-left: 90vw;
 }
 
 .lateral-menu-list{
   list-style: none;
- 
   writing-mode: vertical-lr;
   text-orientation: left;
 }
@@ -162,10 +163,11 @@ input#menu-hamburguesa:checked ~ ul {
 }
 
 /*main*/
-
+/*
 .yellow-letters{
   color: var(--accent-color);
 }
+*/
 
 .img-container{
     display: flex;
@@ -213,6 +215,7 @@ margin-left: 5vw;
       display: none;
     }
   }
+
 @media screen and (min-width:980px) {
     /*
   input#menu-hamburguesa ~ ul {
@@ -247,6 +250,14 @@ margin-left: 5vw;
 
   h1{
     font-size: 100px;
+  }
+
+  .lateral-menu-container{
+    height: 30px;
+    width: 100%;
+  text-align: left;
+  justify-content: flex-start;
+
   }
 }
 
