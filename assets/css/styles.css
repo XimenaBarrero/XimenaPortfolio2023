@@ -130,11 +130,35 @@ input#menu-hamburguesa:checked ~ ul {
   display: flex;
 }
 
-.header-column-one{
+.lateral-menu-container{
   display: flex;
-  width: 100%;
+  flex-direction: column;
   height: 100%;
+  text-align: left;
+  justify-content: flex-start;
+}
 
+.lateral-menu-list{
+  list-style: none;
+ 
+  writing-mode: vertical-lr;
+  text-orientation: left;
+}
+
+.lateral-menu-list > li{
+  cursor: pointer;
+
+}
+
+.lateral-menu-list > li > a{
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.lateral-menu-list > li:nth-child(odd) >a {
+  background-color: var(--main-color);
+  width: 100%;
+  color: var(--dark-color);
 }
 
 /*main*/
@@ -183,7 +207,12 @@ margin-left: 5vw;
     font-size: 90px;
   }
 
-  /*Media quieries*/
+  /*Media queries*/
+  @media screen and (max-width:980px) {
+    .lateral-menu-container{
+      display: none;
+    }
+  }
 @media screen and (min-width:980px) {
     /*
   input#menu-hamburguesa ~ ul {
