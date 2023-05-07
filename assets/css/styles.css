@@ -136,7 +136,7 @@ input#menu-hamburguesa:checked ~ ul {
 
 .lateral-menu-container > ul {
   position: absolute;
-padding-left: 90vw;
+padding-left: 93vw;
 }
 .lateral-menu-container > ul > li >a  {
  padding-top: 5px;
@@ -158,8 +158,7 @@ padding-left: 90vw;
   text-decoration: none;
   color: var(--main-color);
   flex-direction: row;
-
-  
+  display: inline-block;
 }
 
 .lateral-menu-list > li:nth-child(odd) >a {
@@ -253,6 +252,7 @@ margin-left: 5vw;
    nav { 
     display: none;
   }
+
 
   h1{
     font-size: 100px;
