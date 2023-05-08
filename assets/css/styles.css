@@ -214,6 +214,27 @@ margin-left: 5vw;
     font-size: 90px;
   }
 
+  .about-footer {
+    border-top: none;
+    position: relative;
+    right: 10px;
+    width: calc(100%-20px);
+    min-height: 30px;
+    bottom: 0;
+  }
+
+  .about-footer ul {
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 105px;
+    padding-left: 60px;
+    list-style: none;
+  }
+
   /*Media queries*/
   @media screen and (max-width:980px) {
     .lateral-menu-container{
