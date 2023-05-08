@@ -235,6 +235,18 @@ margin-left: 5vw;
     list-style: none;
   }
 
+  .about-footer> ul >li >a{
+    color: var(--main-color);
+    text-decoration: none;
+  }
+
+  .about-me-p{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1000px;
+  }
+
   /*Media queries*/
   @media screen and (max-width:980px) {
     .lateral-menu-container{
