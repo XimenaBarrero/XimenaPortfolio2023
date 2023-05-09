@@ -226,7 +226,7 @@ padding-left: 93vw;
 
   .presentation{
     display: flex;
-    width:80vw ;
+    width:90vw ;
     padding-left: 6vw;
   }
 
@@ -271,7 +271,7 @@ margin-left: 5vw;
   .about-me-p{
     display: flex;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 6vw;
     max-width: 1000px;
   }
 
@@ -326,7 +326,7 @@ margin-left: 5vw;
     color: var(--dark-color);
   }
 
-  
+
   /*SKILLS SECTION*/
 
   .black-word{
