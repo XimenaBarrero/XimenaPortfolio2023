@@ -281,6 +281,12 @@ margin-left: 5vw;
     color: var(--dark-color);
   }
 
+  /*WORK SECTION*/
+
+  .padding-left{
+    padding-left: 50px;
+  }
+
   /*Media queries*/
   @media screen and (max-width:980px) {
     .lateral-menu-container{
