@@ -241,6 +241,10 @@ margin-left: 5vw;
     padding-left: 4vw;
   }
 
+  .about-title-2{
+    font-size: 65px;
+  }
+
   .about-footer {
     border-top: none;
     position: relative;
