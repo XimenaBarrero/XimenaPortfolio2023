@@ -275,6 +275,52 @@ margin-left: 5vw;
     max-width: 1000px;
   }
 
+  /* CONTACT SECTION */
+  .input-row{
+    display: flex;
+    margin-bottom: 11px;
+  }
+  label{
+    padding-right: 10px;
+  }
+
+  input{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    outline: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--main-color);
+    font-weight: lighter;
+    background-color: var(--dark-color);
+    padding-left: 4px;
+  }
+
+  textarea{
+    width: 76%;
+    border: 1px solid var(--accent-color);
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .label{
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  button{
+    background: var(--dark-color);
+    color: var(--main-color);
+    width: 100px;
+    border: 1px solid var(--accent-color);
+    outline: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+    margin-top: 20px;
+
+  }
+
   /*SKILLS SECTION*/
 
   .black-word{
