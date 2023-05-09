@@ -270,8 +270,8 @@ margin-left: 5vw;
 
   .about-me-p{
     display: flex;
-    padding-left: 50px;
-    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-right: 50px;
     max-width: 1000px;
   }
 
@@ -336,7 +336,7 @@ margin-left: 5vw;
   /*WORK SECTION*/
 
   .padding-left{
-    padding-left: 50px;
+    padding-left: 6vw;
   }
 
   /*Media queries*/
