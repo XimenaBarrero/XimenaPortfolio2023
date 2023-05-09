@@ -217,12 +217,11 @@ padding-left: 93vw;
   h1{
     display: flex;
     flex-wrap: wrap;
-    font-size: 72px;
+    font-size: 78px;
     padding-left: 6vw;
     margin-top: 18px;
     font-family: 'Raleway', sans-serif;
   }
-
 
   .presentation{
     display: flex;
@@ -236,10 +235,6 @@ padding-left: 93vw;
 width: 24px;
 height: 100%;
 margin-left: 5vw;
-  }
-
-  .about-title{
-    font-size: 90px;
   }
 
   .about-footer {
