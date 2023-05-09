@@ -223,6 +223,7 @@ padding-left: 93vw;
     font-family: 'Raleway', sans-serif;
   }
 
+
   .presentation{
     display: flex;
     width:80vw ;
@@ -272,6 +273,12 @@ margin-left: 5vw;
     padding-left: 50px;
     padding-right: 50px;
     max-width: 1000px;
+  }
+
+  /*SKILLS SECTION*/
+
+  .black-word{
+    color: var(--dark-color);
   }
 
   /*Media queries*/
