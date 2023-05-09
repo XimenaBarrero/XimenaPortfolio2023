@@ -115,13 +115,17 @@ input#menu-hamburguesa:checked ~ ul {
     border-radius: 30%;
 }
 
-.letras-menu{
+.menu-li{
     color: var(--main-color);
 }
 
-.letras-menu > li{
+.menu-li > li{
   padding-top: 3.5px;
   padding-bottom: 3.5px;
+}
+
+.menu-li > li:last-child{
+  padding-left: 10px;
 }
 
 /*Lateral menu for computer view*/
