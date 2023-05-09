@@ -285,7 +285,7 @@ margin-left: 5vw;
   }
 
   input{
-    width: 60%;
+    width: 70%;
     border: none;
     border-bottom: 1px solid var(--accent-color);
     outline: none;
@@ -297,7 +297,7 @@ margin-left: 5vw;
   }
 
   textarea{
-    width: 76%;
+    width: 85%;
     border: 1px solid var(--accent-color);
     outline: none;
     padding: 10px;
@@ -318,9 +318,15 @@ margin-left: 5vw;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: lighter;
     margin-top: 20px;
-
+    transition: .3s;
   }
 
+  button:hover{
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+  }
+
+  
   /*SKILLS SECTION*/
 
   .black-word{
