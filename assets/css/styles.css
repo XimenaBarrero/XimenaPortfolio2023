@@ -218,7 +218,7 @@ padding-left: 93vw;
     display: flex;
     flex-wrap: wrap;
     font-size: 78px;
-    padding-left: 6vw;
+    padding-left: 5vw;
     margin-top: 18px;
     font-family: 'Raleway', sans-serif;
   }
@@ -235,6 +235,10 @@ padding-left: 93vw;
 width: 24px;
 height: 100%;
 margin-left: 5vw;
+  }
+
+  .about-title{
+    padding-left: 6vw;
   }
 
   .about-footer {
