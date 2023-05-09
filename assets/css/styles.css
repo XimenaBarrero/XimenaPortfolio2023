@@ -167,6 +167,29 @@ padding-left: 93vw;
   color: var(--dark-color);
 }
 
+.skills-lateral-menu-list{
+  list-style: none;
+  writing-mode: vertical-lr;
+  text-orientation: left;
+}
+
+.lskills-lateral-menu-list > li{
+  cursor: pointer;
+  display: flex;
+}
+
+.skills-lateral-menu-list >li a{
+  text-decoration: none;
+  flex-direction: row;
+  display: inline-block;
+  color: var(--dark-color);
+}
+
+.skills-lateral-menu-list > li:nth-child(odd) >a {
+  background-color: var(--dark-color);
+  width: 100%;
+  color: var(--main-color);
+}
 /*main*/
 /*
 .yellow-letters{
