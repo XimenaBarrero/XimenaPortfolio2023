@@ -386,6 +386,10 @@ margin-left: 5vw;
   object-fit: contain;
 }
 
+.back-white{
+  background-color: var(--main-color);
+}
+
   /*WORK SECTION*/
 
   .padding-left{
