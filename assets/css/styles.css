@@ -272,6 +272,10 @@ margin-left: 5vw;
     text-decoration: none;
   }
 
+  .black-font> ul>li>a{
+    color: var(--dark-color);
+  }
+
   .about-me-p{
     display: flex;
     padding-left: 6vw;
