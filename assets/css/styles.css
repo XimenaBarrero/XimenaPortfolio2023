@@ -355,16 +355,28 @@ margin-left: 5vw;
   display: flex;
   gap:1rem;
   justify-content: space-between;
-  max-width: 95vw;
+  max-width: 85vw;
   overflow-x: scroll;
 }
 
 .experiencia-card{
   width: 280px;
-  background-color: #ddd;
+  background-color: transparent;
   padding: 1.5rem 1rem;
   text-align: center;
-  min-width: 300px;
+  min-width: 200px;
+  max-height: 200px;
+  border: 1px solid var(--accent-color);
+  color: var(--dark-color);
+}
+
+.experiencia-card > h5{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: lighter;
+}
+
+.experiencia-card:hover{
+  border: 3px solid var(--accent-color);
 }
 
 .experiencia-card>img{
