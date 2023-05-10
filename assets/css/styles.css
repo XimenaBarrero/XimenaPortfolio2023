@@ -337,7 +337,7 @@ margin-left: 5vw;
     color: var(--dark-color);
   }
 
-.section-experiencia{
+.experience-section{
   display: flex;
   justify-content: center;
   padding-left: 25px;
@@ -352,7 +352,7 @@ margin-left: 5vw;
   padding-left: 6vw;
 }
 
-.scroll-horizontal{
+.horizontal-scroll{
   display: flex;
   gap:1rem;
   justify-content: space-between;
@@ -360,7 +360,7 @@ margin-left: 5vw;
   overflow-x: scroll;
 }
 
-.experiencia-card{
+.experience-card{
   width: 280px;
   background-color: transparent;
   padding: 1.5rem 1rem;
@@ -371,16 +371,16 @@ margin-left: 5vw;
   color: var(--dark-color);
 }
 
-.experiencia-card > h5{
+.experience-card > h5{
   font-family: 'IBM Plex Mono', monospace;
   font-weight: lighter;
 }
 
-.experiencia-card:hover{
+.experience-card:hover{
   border: 3px solid var(--accent-color);
 }
 
-.experiencia-card>img{
+.experience-card>img{
   width: 100px;
   height: 100px;
   object-fit: contain;
@@ -394,7 +394,7 @@ margin-left: 5vw;
 
   /*Media queries*/
   @media screen and (min-width:700px) {
-    .scroll-horizontal{
+    .horizontal-scroll{
       padding-right: 80px;
     }
 
@@ -465,7 +465,7 @@ margin-left: 5vw;
   .smaller-text{
     padding-right: 80px;
   }
-  .section-experiencia{
+  .experience-section{
     padding-right: 50px;
     max-width: 90%;
   }
