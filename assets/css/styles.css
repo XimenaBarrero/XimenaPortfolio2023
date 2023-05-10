@@ -110,9 +110,10 @@ input#menu-hamburguesa:checked ~ ul {
   width: 100%;
 }
 
-.ig-image{
+.linkedin-image{
     background-color: var(--main-color);
     border-radius: 30%;
+    width: 20px;
 }
 
 .menu-li{
