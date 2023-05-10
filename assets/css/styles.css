@@ -344,6 +344,7 @@ margin-left: 5vw;
   padding-right: 25px;
   background-color: transparent;
 }
+
 .text-center{
   color: var(--dark-color);
   font-family: 'IBM Plex Mono', monospace;
@@ -411,6 +412,11 @@ margin-left: 5vw;
   display: inline-block;
   font-size: 70px;
     }
+
+    .smaller-text{
+      font-size: 16px;
+      padding-right: 20px;
+    }
   }
 
 @media screen and (min-width:980px) {
@@ -455,5 +461,14 @@ margin-left: 5vw;
   text-align: left;
   justify-content: flex-start;
   }
+
+  .smaller-text{
+    padding-right: 80px;
+  }
+  .section-experiencia{
+    padding-right: 50px;
+    max-width: 90%;
+  }
+
 }
 
