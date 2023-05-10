@@ -272,9 +272,6 @@ margin-left: 5vw;
     text-decoration: none;
   }
 
-  .black-font> ul>li>a{
-    color: var(--dark-color);
-  }
 
   .about-me-p{
     display: flex;
@@ -334,12 +331,47 @@ margin-left: 5vw;
     color: var(--dark-color);
   }
 
-
   /*SKILLS SECTION*/
 
   .black-word{
     color: var(--dark-color);
   }
+
+.section-experiencia{
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: transparent;
+}
+.text-center{
+  color: var(--dark-color);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: lighter;
+  padding-left: 6vw;
+}
+
+.scroll-horizontal{
+  display: flex;
+  gap:1rem;
+  justify-content: space-between;
+  max-width: 95vw;
+  overflow-x: scroll;
+}
+
+.experiencia-card{
+  width: 280px;
+  background-color: #ddd;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  min-width: 300px;
+}
+
+.experiencia-card>img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
 
   /*WORK SECTION*/
 
@@ -348,6 +380,16 @@ margin-left: 5vw;
   }
 
   /*Media queries*/
+  @media screen and (min-width:700px) {
+    .scroll-horizontal{
+      padding-right: 80px;
+    }
+
+    .about-title-2{
+      font-size: 100px ;
+    }
+  }
+
   @media screen and (max-width:980px) {
     .lateral-menu-container{
       display: none;
@@ -391,7 +433,6 @@ margin-left: 5vw;
     display: none;
   }
 
-
   h1{
     font-size: 100px;
   }
@@ -401,7 +442,6 @@ margin-left: 5vw;
     width: 100%;
   text-align: left;
   justify-content: flex-start;
-
   }
 }
 
