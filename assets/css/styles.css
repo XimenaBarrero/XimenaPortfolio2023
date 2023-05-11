@@ -542,5 +542,9 @@ margin-left: 5vw;
     max-width: 90%;
   }
 
+  .frontend-wrapper{
+    max-width: 90%;
+  }
+
 }
 
