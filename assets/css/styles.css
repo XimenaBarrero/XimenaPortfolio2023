@@ -263,10 +263,13 @@ margin-left: 5vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-right: 7vw;
+    padding-right: 2vw;
     padding-left: 6vw;
     list-style: none;
   }
+
+  
+
 
   .about-footer> ul >li >a{
     color: var(--main-color);
