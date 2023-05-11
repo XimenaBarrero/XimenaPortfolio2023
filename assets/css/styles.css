@@ -136,6 +136,8 @@ input#menu-hamburguesa:checked ~ ul {
 /*Lateral menu for computer view*/
 
 .lateral-menu-container{
+  height: 100%;
+  width: 100%;
   display: flex;
   position: relative;
   display: flex;
@@ -146,10 +148,13 @@ input#menu-hamburguesa:checked ~ ul {
 .lateral-menu-container > ul {
   position: absolute;
 padding-left: 93vw;
+height: 100%;
+  width: 100%;
+  padding-bottom: 1100px;
 }
 .lateral-menu-container > ul > li >a  {
  padding-top: 5px;
- padding-bottom: 815px;
+ padding-bottom: 1000px;
 }
 
 .lateral-menu-list{
@@ -182,7 +187,7 @@ padding-left: 93vw;
   text-orientation: left;
 }
 
-.lskills-lateral-menu-list > li{
+.skills-lateral-menu-list > li{
   cursor: pointer;
   display: flex;
 }
