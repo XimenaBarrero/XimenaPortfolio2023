@@ -144,19 +144,18 @@ input#menu-hamburguesa:checked ~ ul {
   text-align: left;
 }
 
-.lateral-menu-container > ul {
+.lateral-menu-container ul{
   position: absolute;
-  padding-bottom: 100%;
+  padding-bottom: 80%;
 padding-left: 93vw;
 width: 100%;
 height: 100%;
 display: inline-block;
 }
 
-
-.lateral-menu-container > ul > li >a  {
+.lateral-menu-container ul li a  {
  padding-top: 20px;
- padding-bottom: 100%;
+ padding-bottom: 90%;
 }
 
 .lateral-menu-list{
@@ -165,21 +164,24 @@ display: inline-block;
   text-orientation: left;
 }
 
-.lateral-menu-list > li{
+.lateral-menu-list li{
   cursor: pointer;
   display: flex;
 }
 
-.lateral-menu-list > li > a{
+.lateral-menu-list li a{
   text-decoration: none;
-  color: var(--main-color);
   flex-direction: row;
-  display: inline-block;
 }
 
 .lateral-menu-list > li:nth-child(odd) >a {
   background-color: var(--main-color);
   color: var(--dark-color);
+}
+
+.lateral-menu-list > li:nth-child(even) >a {
+  background-color: var(--dark-color);
+  color: var(--main-color);
 }
 
 .skills-lateral-menu-list{
@@ -188,21 +190,13 @@ display: inline-block;
   text-orientation: left;
 }
 
-.skills-lateral-menu-list > li{
-  cursor: pointer;
-  display: flex;
-}
-
-.skills-lateral-menu-list >li a{
+.skills-lateral-menu-list li a{
   text-decoration: none;
   flex-direction: row;
-  display: inline-block;
-  color: var(--dark-color);
 }
 
-.skills-lateral-menu-list > li:nth-child(odd) >a {
+.skills-lateral-menu-list li:nth-child(odd) >a {
   background-color: var(--dark-color);
-  width: 100%;
   color: var(--main-color);
 }
 /*main*/
