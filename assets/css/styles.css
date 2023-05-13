@@ -146,16 +146,15 @@ input#menu-hamburguesa:checked ~ ul {
 
 .lateral-menu-container ul{
   position: absolute;
-  padding-bottom: 80%;
+  padding-bottom: 50%;
 padding-left: 93vw;
 width: 100%;
-height: 100%;
 display: inline-block;
 }
 
 .lateral-menu-container ul li a  {
  padding-top: 20px;
- padding-bottom: 90%;
+ padding-bottom: 100%;
 }
 
 .lateral-menu-list{
@@ -195,10 +194,12 @@ display: inline-block;
   flex-direction: row;
 }
 
-.skills-lateral-menu-list li:nth-child(odd) >a {
+.skills-lateral-menu-list > li:nth-child(odd) >a {
   background-color: var(--dark-color);
   color: var(--main-color);
 }
+
+
 /*main*/
 /*
 .yellow-letters{
